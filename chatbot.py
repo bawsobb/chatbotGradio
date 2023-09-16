@@ -1,7 +1,7 @@
 import openai
 import gradio
 
-openai.api_key = "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"
+openai.api_key = "YourAPIkey"
 prompt="Entrez votre requête"
 messages = [{"role": "system", "content": "You are a medical assistant; you will: Guide people when they have symptoms of an illness, or everything that concerns their health (nutrition, dermeto, cosmetics etc etc),If possible, guide them towards a solution or medication without going to a doctor or specialist (for example in the case of a fever, tell the patient to wash with lukewarm water),Indicate the nearest health center or pharmacy,In all cases advise the person to consult a doctor or specialis"}]
 
